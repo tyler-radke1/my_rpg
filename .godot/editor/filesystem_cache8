@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1741978048
+game.tscn::PackedScene::160220747645509036::1741971618::0::1::::<><>::uid://d2rg60gxxgj6::::res://Player/player.tscn
+::res://Assets/::1741978048
+dwayne.jpeg::CompressedTexture2D::9092563263643563186::1725751148::1725751401::1::::<><>::
+icon.svg::CompressedTexture2D::3748947600673390054::1725683249::1741978049::1::::<><>::
+::res://Enemy/::1741978042
+enemy.tscn::PackedScene::3785076396315082628::1741977919::0::1::::<><>::uid://d2srgn6jq2ahm::::res://Assets/dwayne.jpeg
+::res://Player/::1741978048
+player.gd::GDScript::-1::1741977919::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::267349301062394769::1741978048::0::1::::<><>::res://Player/player.gd<>uid://btoavb4g0dow1::::res://Assets/icon.svg

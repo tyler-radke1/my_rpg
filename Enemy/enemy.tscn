@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://bt6rwjpt1iwmu"]
+
+[ext_resource type="Script" path="res://Enemy/enemy.gd" id="1_xnegl"]
+[ext_resource type="Texture2D" uid="uid://d2srgn6jq2ahm" path="res://Assets/dwayne.jpeg" id="2_4y7uf"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xl8fu"]
+
+[sub_resource type="GDScript" id="GDScript_rwweu"]
+script/source = "extends Sprite2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="enemy" type="CharacterBody2D"]
+script = ExtResource("1_xnegl")
+
+[node name="enemy_collision" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_xl8fu")
+
+[node name="enemy_texture" type="Sprite2D" parent="."]
+texture = ExtResource("2_4y7uf")
+script = SubResource("GDScript_rwweu")
